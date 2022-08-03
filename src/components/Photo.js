@@ -2,10 +2,14 @@ import React from 'react';
 
 //stateless component
 //match index.html
-const Photo = (props) => (
-    <li>
-        <img src={props.url} alt="" />
-    </li>
-);
+const Photo = (props) => {
+// const Photo = (photo) => (
+    return (    
+        <li>
+            <img src={props.url} alt="" />
+            {/* <img src=`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_z.jpg` alt="" /> */}
+        </li>
+    );
+}
 
 export default Photo;
