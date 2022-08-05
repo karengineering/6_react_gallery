@@ -4,6 +4,7 @@ import React from 'react';
 //match index.html
 const Photo = (props) => {
 // const Photo = (photo) => (
+    console.log(props.url);
     return (    
         <li>
             <img src={props.url} alt="" />
