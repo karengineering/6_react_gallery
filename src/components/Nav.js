@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 //stateless component
 //match index.html
-const Nav = () => (
+const Nav = (props) => (
     <nav className="main-nav">
         <ul>
             <li><NavLink to='/cats'>Cats</NavLink></li>
